@@ -9,26 +9,9 @@ let user = global.db.data.users[m.sender]
 if (!args[0]) return conn.reply(m.chat, `722969020067202499
 𝙼𝙴𝚁𝙲𝙰𝙳𝙾 𝙿𝙰𝙶𝙾 𝚆
 𝙸𝚅𝙴𝚃𝚃𝙴 𝙼𝙾𝙽𝚃𝙴𝚂`, fkontak, m)
-if (!args[0].match(/www.facebook.com|fb.watch/g)) return conn.reply(m.chat, `*METODOS DE PAGO A REALIZAR DESDE 🇲🇽🇨🇱🇦🇷🇵🇪*
-*MEXICO: Sarai Ortega Gongora*
-CLABE: 646016206894617534
-Institución: STP
-Descripción: comida
-________________________
-*CHILE: BARINIA VALESKA ZENTENO MERINO*
-17053067-5
-BANCO ELEGIR: TEMPO
-Tipo de cuenta: Cuenta Vista 
-Numero de cuenta: 111117053067
-Correo: estraxer2002@gmail.com
-________________________
-*PERU: Marcelo Gonzales R.*
-Yape: 967699188
-Plin: 955095498
-________________________
-*ARGENTINA: Gaston Juarez*
-4530000800011127480736
-________________________`, fkontak, m)
+if (!args[0].match(/www.facebook.com|fb.watch/g)) return conn.reply(m.chat, `722969020067202499
+𝙼𝙴𝚁𝙲𝙰𝙳𝙾 𝙿𝙰𝙶𝙾 𝚆
+𝙸𝚅𝙴𝚃𝚃𝙴 𝙼𝙾𝙽𝚃𝙴𝚂`, fkontak, m)
 let contenido = `✅ 𝙑𝙄𝘿𝙀𝙊 𝘿𝙀 𝙁𝘼𝘾𝙀𝘽𝙊𝙊𝙆\n${wm}`
 try {
 const api = await fetch(`${global.APIs.neoxr.url}/fb?url=${args}&apikey=${global.APIs.neoxr.key}`);
